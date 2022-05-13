@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesignPatterns22</name>
+    </assembly>
+    <members>
+        <member name="T:DesignPatterns22.MyClass">
+            <summary>
+            An excellent class
+            </summary>
+        </member>
+        <member name="F:DesignPatterns22.MyClass._somePrivate">
+            <summary>
+            The private float
+            </summary>        
+        </member>
+        <member name="P:DesignPatterns22.MyClass.SomeProperty">
+            <summary>
+            A magnificent property
+            </summary>
+        </member>
+        <member name="M:DesignPatterns22.MyClass.#ctor">
+            <summary>
+            A sublime constructor
+            </summary>
+        </member>
+        <member name="M:DesignPatterns22.MyClass.SomeMethod(System.Boolean)">
+            <summary>
+            Do something
+            </summary>
+            <param name="someArgument">Specifies how you do the thing</param>
+            <returns>The right string</returns>
+        </member>
+        <member name="M:DesignPatterns22.MyClass.SomePrivateMethod(System.Char)">
+            <summary>
+            I don't care anymore...
+            </summary>
+            <param name="c">the character c</param>
+        </member>
+    </members>
+</doc>
