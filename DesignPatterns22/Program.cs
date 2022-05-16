@@ -7,7 +7,13 @@ namespace DesignPatterns22
     {
         public static void Main()
         {
-            CommandSample.Run();
+            MyThreadSingleton.Instance.Blah();
+            MyThreadSingleton.Instance.Blah();
+            MyThreadSingleton.Instance.Blah();
+            MyThreadSingleton.Instance.Blah();
+
+            Task.Run(() => MyThreadSingleton.Instance.Blah());
+            Console.ReadLine();
         }
     }
 }
