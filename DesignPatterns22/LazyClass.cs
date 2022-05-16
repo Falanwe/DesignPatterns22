@@ -41,5 +41,15 @@ namespace DesignPatterns22
             Thread.Sleep(5000);
             return 42;
         }
+
+        public static void Run()
+        {
+            Console.ReadLine();
+            var lazy = new LazyClass();
+            Console.WriteLine("Accessing the property.");
+            Console.WriteLine(lazy.ComplicatedProPertyByLazy);
+            Console.WriteLine("Accessing the property again.");
+            Console.WriteLine(lazy.ComplicatedProPertyByLazy);
+        }
     }
 }

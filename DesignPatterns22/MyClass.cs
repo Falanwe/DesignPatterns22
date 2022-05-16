@@ -39,6 +39,11 @@ namespace DesignPatterns22
             return "";
         }
 
+        public void Init(int argument)
+        {
+            Console.WriteLine($"I've been initialized with argument {argument}");
+        }
+
         /// <summary>
         /// I don't care anymore...
         /// </summary>
